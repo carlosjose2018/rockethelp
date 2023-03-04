@@ -13,6 +13,7 @@ import { useFonts,Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/r
 
 
 import {THEME} from './src/styles/theme'
+import { Home } from "./src/components/Home";
 
 
 export default function App() {
@@ -25,7 +26,7 @@ export default function App() {
          backgroundColor='transparent'
          translucent
           />
-        {fontsLoader ? <Signin/> : <Loading/>}
+        {fontsLoader ? <Home /> : <Loading/>}
      </NativeBaseProvider>
   );
 }
