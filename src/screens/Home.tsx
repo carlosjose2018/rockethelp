@@ -4,10 +4,10 @@ import { VStack, HStack, IconButton, useTheme, Text, Heading, FlatList, Center }
 
 import Logo from '../assets/logo_secondary.svg'
 import { ChatTeardropText, SignOut } from 'phosphor-react-native';
-import { Filter } from './Filter';
+import { Filter } from '../components/Filter';
 
-import { Order, OrderProps } from './Order';
-import { Button } from './Button';
+import { Order, OrderProps } from '../components/Order';
+import { Button } from '../components/Button';
 
 export function Home() {
   //<'open' | 'closed'> define que esse useState aceita apenas open ou closed.
